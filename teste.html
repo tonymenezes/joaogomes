@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Gomes</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">João Gomes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="projeto.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Músicas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#db">Dengo</a></li>
+                            <li><a class="dropdown-item" href="#ev">Meu Pedaço de Pecado</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Shows</a>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#sobre" class="nav-link" >Patrocinadores</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#form" class="nav-link">Fale Conosco</a>
+                      </li>
+
+                </ul>     
+                  <div class="modal fade" id="joinha" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Obrigado por Apoiar o Caneta Azul!</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="img/joinhacaneta.PNG" alt="">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Sair</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>   
+            </div>
+        </div>
+    </nav>
+    </header>
+    <section class="container mt-5 text-center d-flex align-items-center justify-content-center">
+        <div id="carouselExampleDark" class="carousel carousel-dark w-75 h-25 slide " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/img1.png" class=" rounded-4" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-primary fs-2">João Gomes</h5>
+                        <p class="text-primary fs-3">Ensaio de Fotos</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/img4.png" class=" rounded-4" alt="...">
+                    <div class="carousel-caption d-none d-md-block ">
+                        <h5 class="text-primary fs-2">João Gomes</h5>
+                        <p class="text-primary fs-3">Ensaio de Fotos</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/img5.png" class="rounded-4" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-primary fs-2"></h5>
+                        <p class="text-primary fs-3"></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="container mt-5 d-flex flex-column w-75 flex justify-content-evenly align-items-center flex-lg-row ">
+
+        <div class="card mt-4" style="" id="db">
+            <img src="img/img1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">João Gomes</h5>
+                <p class="card-text">Música - Dengo (2:34)</p>
+                <a href="https://www.youtube.com/watch?v=I-UEY8A-b5c" target="bi-youtube" class="btn btn-primary">Ouça Agora!!!!</a>
+            </div>
+        </div>
+
+        <div class="card mt-4" style="width: 20rem;" id="ca">
+            <img src="img/img1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Manoel Gomes</h5>
+                <p class="card-text">Música - Debaixo do Cobertor (2:32)</p>
+                <a href="https://www.youtube.com/watch?v=_hug2LZIHFU"  target="bi-youtube" class="btn btn-primary">Ouça Agora!!!!</a>
+            </div>
+        </div>
+
+        <div class="card mt-4" style="" id="ev">
+            <img src="img/img1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Manoel Gomes</h5>
+                <p class="card-text">Música - Meu Pedaço de Pecado (2:40)</p>
+                <a href="https://www.youtube.com/watch?v=H1DEczvTjgE" target="bi-youtube" class="btn btn-primary">Ouça Agora!!!!</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid mt-5 w-75 ">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Shows
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quod deserunt veritatis corporis dolorem recusandae non voluptatem. Aut laborum est aperiam? Esse saepe laboriosam modi impedit similique sequi dignissimos quia!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Parcerias
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor fugit corporis eos ea eligendi beatae, provident aperiam, cum porro animi facilis quaerat est at! Laborum quibusdam veritatis minus! Accusamus, sint!Lorem
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Como contratar?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit cupiditate totam deserunt placeat eum aspernatur nihil recusandae assumenda magni quod dolor saepe dolores, inventore distinctio voluptates voluptatibus autem repellat minima? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum qui esse iusto soluta ducimus nemo id aliquid debitis repellendus natus modi repudiandae sed nesciunt in nihil, blanditiis cum minus magnam?
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
+
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (() => {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })()
+</script>
+</body>
+
+</html>
